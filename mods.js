@@ -1,4 +1,3 @@
-
 /*
   COMO ADICIONAR UM MOD:
   1. Copie um bloco { ... }.
@@ -23,13 +22,19 @@ const mods = [
     version: "atuais",
     category: "Bedrock",
     date: "2026-10-30",
-    image: "https://dark-blue-eoycimfk.edgeone.dev/file.png",
+    image: "https://i.ibb.co/39wtFSX1/2026-11-04-21-20-00-Complementary-Reimagined-r5-8-1-3840x2160-cam1-remaining-visible.png",
     download: "https://www.mediafire.com/file/rybire4t1e1p1eh/VillagerNews_PTBR.mcaddon/file?dkey=54yxytqevdb&r=904",
     video: ""
+  },
+  {
+    name: "Actions & Stuff",
+    description: "Pacote de animações.",
+    version: "atual",
+    category: "Bedrock",
+    date: "2026-11-22",
+    image: "https://i.ytimg.com/vi/VDk8niB2Obw/maxresdefault.jpg",
+    download: "https://www.mediafire.com/file/ha81l64n8c2m0rr/Actions-And-Stuff-2.0.mcpack/file",
+    video: "LINK_DO_VIDEO"
   }
 ];
-
-// Seus links e imagem do canal:
-const siteConfig = {
-  youtubeUrl: "https://www.youtube.com/@kkYuddd",
-};
+const siteConfig = { youtubeUrl: "https://www.youtube.com/@kkYuddd" };
