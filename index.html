@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mods de Minecraft apresentados nos vídeos do Yuddd.">
+  <title>Yuddd Mods — Mods dos vídeos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#">
+      <span class="brand-mark">Y</span>
+      <span>YUDDD<span class="green"> MODS</span></span>
+    </a>
+    <nav>
+      <a href="#mods">Mods</a>
+      <a id="nav-youtube" class="youtube-link" href="https://www.youtube.com/" target="_blank" rel="noopener">▶ YouTube</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg-pattern"></div>
+      <div class="hero-content">
+        <span class="eyebrow"><span class="dot"></span> CENTRAL DE DOWNLOADS</span>
+        <h1>Os mods dos vídeos.<br><span class="green">Direto pra você.</span></h1>
+        <p>Todos os mods que aparecem nos vídeos do Yuddd, reunidos em um só lugar. Escolha, confira os detalhes e baixe!</p>
+        <div class="hero-actions">
+          <a class="hero-button" href="#mods">Explorar mods <span>↓</span></a>
+          <a id="hero-youtube" class="youtube-button" href="https://www.youtube.com/" target="_blank" rel="noopener"><span class="yt-icon">▶</span> Ver canal</a>
+        </div>
+      </div>
+      <a id="channel-card" class="channel-card" href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visitar canal do Yuddd">
+        <div class="channel-cover"></div>
+        <img id="channel-avatar" class="channel-avatar" src="assets/channel-avatar.png" alt="Imagem do canal Yuddd" onerror="this.style.display='none';document.getElementById('avatar-fallback').style.display='grid'">
+        <div id="avatar-fallback" class="avatar-fallback">Y</div>
+        <div class="channel-name">Yuddd <span class="verified">✦</span></div>
+        <div class="channel-caption">Minecraft • Shorts • Mods</div>
+        <div class="channel-visit">VISITAR CANAL ↗</div>
+      </a>
+      <div class="hero-decoration" aria-hidden="true"><div class="orbit">Y</div><i class="pixel p1"></i><i class="pixel p2"></i></div>
+    </section>
+
+    <section class="mods-section" id="mods">
+      <div class="section-heading">
+        <div><span class="eyebrow">BIBLIOTECA</span><h2>Mods mais recentes</h2><p class="muted">Os últimos mods adicionados aparecem primeiro.</p></div>
+        <span class="mod-count" id="mod-count">0 MODS</span>
+      </div>
+      <div class="toolbar">
+        <label class="search-box"><span>⌕</span><input id="search" type="search" placeholder="Pesquisar mods..." aria-label="Pesquisar mods"></label>
+        <select id="version-filter" aria-label="Filtrar por versão"><option value="">Todas as versões</option></select>
+      </div>
+      <div class="mod-grid" id="mod-grid"></div>
+      <p class="empty-state" id="empty-state" hidden>Nenhum mod encontrado. Tente outra pesquisa.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#"><span class="brand-mark">Y</span><span>YUDDD<span class="green"> MODS</span></span></a>
+    <p>Se inscreva no canal e certifique de deixar o like.</p>
+    <a id="footer-youtube" href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube ↗</a>
+    <span class="copyright">© <span id="year"></span> Yuddd</span>
+  </footer>
+  <script src="mods.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

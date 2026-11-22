@@ -1,0 +1,29 @@
+YUDDD MODS — VERSÃO 2
+
+O QUE MUDOU
+- Os mods são organizados automaticamente do mais recente para o mais antigo.
+- Cada mod tem uma data (AAAA-MM-DD). Para adicionar um mod novo, coloque a data atual.
+- A área de destaque agora tem um cartão para a imagem do canal e links do YouTube.
+- O fundo tem detalhes verdes e textura discreta.
+
+PERSONALIZAR O CANAL
+1. Abra mods.js.
+2. Troque o valor de youtubeUrl pelo link real do canal.
+3. Coloque sua imagem de perfil em uma pasta chamada assets, com o nome channel-avatar.png.
+   Exemplo: assets/channel-avatar.png
+4. Se não adicionar imagem, o site mostra um Y provisório.
+
+ADICIONAR MODS
+- Abra mods.js.
+- Copie um bloco de mod e preencha nome, descrição, versão, categoria, data, imagem, download e vídeo.
+- Use a data no formato AAAA-MM-DD. O mais recente aparece primeiro automaticamente.
+- Para imagem, use um link direto de imagem. Para download, prefira a página oficial do mod.
+
+PUBLICAR / ATUALIZAR NO GITHUB PAGES
+- Envie os arquivos atualizados para o repositório do GitHub, substituindo os antigos.
+- Mantenha index.html, style.css, script.js e mods.js juntos.
+- Se adicionar a foto, envie também a pasta assets com channel-avatar.png.
+
+IMPORTANTE
+- Prefira links das páginas oficiais dos mods (Modrinth/CurseForge), respeitando os criadores.
+- Confira versão e loader (Fabric, Forge, NeoForge etc.) antes de publicar.
